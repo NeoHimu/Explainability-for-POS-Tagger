@@ -12,5 +12,8 @@ contains the word embeddings as numpy array
 
 contains the bidirectional LSTM model weights as python dictionary of numpy arrays
 
+-embeddings
+ This is 100 dimensional Glove embedding 
+
 
 This model (https://github.com/NeoHimu/POS-Tagger-using-HMM-and-Deep-Learning) has been implemented in Keras using Tensorflow backend. 
