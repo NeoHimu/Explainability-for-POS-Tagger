@@ -8,12 +8,12 @@ contains the vocabulary as python list of strings (enables mapping word string <
 contains the word embeddings as numpy array
 
 
-- model
+- saved_model
 
 contains the bidirectional LSTM model weights as python dictionary of numpy arrays
 
 -embeddings
- This is 100 dimensional Glove embedding 
+ This is 100 dimensional Glove word embedding 
 
 
 This model (https://github.com/NeoHimu/POS-Tagger-using-HMM-and-Deep-Learning) has been implemented in Keras using Tensorflow backend. 
