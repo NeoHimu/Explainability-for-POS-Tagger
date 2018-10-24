@@ -1,7 +1,7 @@
 
 # Description
 
-This code release contains an implementation of two relevance decomposition methods, Layer-wise Relevance Propagation (LRP) and Sensitivity Analysis (SA), for a bidirectional LSTM on Sequence to Sequence Labeling Task (POS tagger in this case). This code can be used for explaining any Sequence to Sequence Labeling task like Word Sense Disambiguation or Machine Translation.
+This code release contains an implementation of two relevance decomposition methods, Layer-wise Relevance Propagation (LRP) and Sensitivity Analysis (SA), for a bidirectional LSTM on Sequence to Sequence Labeling Task (POS tagger in this case). This code can be used for explaining any Sequence to Sequence Labeling task like Word Sense Disambiguation or Machine Translation. Heatmapping is used here to emphasize on the word which are responsible for the final decision made by the neural network model.
 
 
 
