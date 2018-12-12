@@ -65,6 +65,7 @@ def html_heatmap (words, scores, cmap_name="bwr"):
     
     for idx, w in enumerate(words):
         score       = rescale_score_by_abs(scores[idx], max_s, min_s)
+        score = 0.5*score #this is done to make sure that only one color is being used for intensity mapping
         output_text = output_text + span_word(w, score, colormap) + " "
     
     return output_text + "\n"
